@@ -1,5 +1,1 @@
-const multiply = (a, b) => {
-	return a * b;
-};
-
-module.exports = { multiply };
+module.exports = multiply = (a, b) => a * b;
